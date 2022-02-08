@@ -1,1 +1,1 @@
-APS Node Module 1570.  nRF52840 chip with minor addons. 
+Circuit Python config for APS Node Module 1570.  nRF52840 chip with minor addons. 
