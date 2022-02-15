@@ -289,7 +289,7 @@ def print_hex(data):
 
 def print_hex_simple(data):
     for letter in data:
-        if int(letter) > 9:
+        if int(letter) > 15:
             print(hex(letter)[2:],end="")
         else:
             print("0", end="")
