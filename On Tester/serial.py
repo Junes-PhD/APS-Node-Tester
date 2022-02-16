@@ -525,13 +525,13 @@ def serial_test(flip_bit):
         if flip_bit == 1:
             print("Sent Production Bit Flip Command")
             uart_0.write(set_production_bit)
+            print_zigbee_label()
         else:
             print_zigbee_label()
         time.sleep(3.0)
         ble_pass = ble_check(3.0, 0)
         if ble_pass == 2:
             print("Programming Sucessful")
-            print_zigbee_label()
         elif ble_pass == 1:
             print("Programming Failed")
         elif ble_pass ==0:
